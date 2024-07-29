@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Free 2 Be Fit</title>
+</head>
+<body>
+        <!---Header-->
+        
+    <!--Navbar code is taken from Code Institute-Whiskey Drop Project-->
+        <header>
+        
+          <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+              <a class="navbar-brand" href="#">
+                  <h1 class="name"><span><i class="fas fa-dumbbell"></i></span>
+                  Free 2 Be Fit <span><i class="fas fa-dumbbell"></i></span></h1>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav mr-auto">
+                      <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                      <li class="nav-item mr-2"><a class="nav-link" href="services.html">Services</a></li>
+                      <li class="nav-item mr-2"><a class="nav-link" href="fees-and-timetable.html">Fees & Timetable</a></li>
+                      <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                  </ul> 
+              </div>
+          </nav>
+      </header>
+
+
+    <section class="book-class">
+      <div class="row">
+        <div class="col-lg-6">
+         <div class="container">
+
+          <!--Form taken from Bootstrap and modified for the project-->
+       
+            <form action="." method="GET" class="form-box responsive-height">
+              <h2 class="form-title">Book Here!</h2>
+              <div class="form-group">
+                <label for="f&lname">First & Last Name</label>
+                <input type="text" class="form-control" id="f&lname" placeholder="First & Last Name" required>
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+              </div>
+             
+              <div class="form-group">
+                    <label for="classes">Choose Class</label>
+                    <select class="form-control" id="classes" required>
+                      <option value="">Choose option</option>
+                      <option>Aerobics</option>
+                      <option>Balance</option>
+                      <option>Cardio</option>
+                      <option>Circuit</option>
+                      <option>Clubbercise</option>
+                      <option>Conditioning</option>
+                      <option>Freestyle Step</option>
+                      <option>HIIT & Core</option>
+                      <option>Kinetic Chain Release</option>
+                      <option>One to One personal training</option>
+                      <option>Strength & Tone</option>
+                      <option>Zumba</option>
+                    </select>
+              </div>
+              <div class="form-group">
+                  <label for="date">Date</label>
+                  <input type="date" id="date" required>
+                  <label for="time">Time</label>
+                  <input type="time" id="time" required>
+              </div>
+              <div class="form-group">
+                <label for="comments">Comments</label>
+                <textarea class="form-control" id="comments" rows="3"></textarea>
+              </div>
+              <div>
+                    <label for="submit"></label>
+                    <input class="btn-submit" type="submit" name="submit" id="submit">
+                
+              </div>
+            </form>
+          </div>
+        </div> 
+      </div>   
+    </section>
+
+    <hr class="section-divider">
+    
+    <section class="contact-info">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="serv-head">Contact Us!</h2>
+                <p class="services-text">If you have any queries or questions regarding the booking or how to obtain a voucher,
+                  write to us on our email address:
+                  team@fit2befit.com or on one of our social media platforms.
+                </p>
+            </div>
+            <div class="col-lg-6 services-text">
+              <h2 class="serv-head">Cancellation Policy</h2>
+              <p>One 2 One- 24hrs before<br>
+               KCR – 24 hrs before<br>
+              Group exercise – 3hrs before otherwise 10% charge will apply.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+  <hr class="section-divider">
+
+       
+            
+
+        <!-- Footer-->   
+        <!--Footer used Card styles from the components of Bootstrap-->
+        <footer>
+          <div class="card-group">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title contact-us">Contact Us!</h5>
+              
+                  <p class="card-text">Email:team@free2befit.com</p>
+                  <p class="card-text">Telephone:0557879000</p>
+                  </div>
+              </div>
+              <div class="card">
+               
+                <div class="card-body">
+                  <h5 class="card-title follow-us">Follow Us!</h5>
+                  
+                  <div class="card-text">
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+                  <a href="https://www.instagram.com/" target="_blank"> <i class="fab fa-instagram"></i>Instagram</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                  <div class="card-body">
+                    <a href="services.html"><h5 class="card-title services">Services</h5></a>
+                   
+                  </div>
+              </div>
+      
+              <div class="card">
+                  <div class="card-body">
+                  <a href="contact.html"><h5 class="card-title services">Book Here!</h5></a>
+                  
+                    </div>
+                </div>
+            </div>
+      </footer>
+        
+        
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>   
+</body>
+</html>

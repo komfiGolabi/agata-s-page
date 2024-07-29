@@ -1,0 +1,496 @@
+body {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 3px;
+    margin:0;
+    padding:66px 0 0 0;
+}
+.container-fluid {
+    margin:0;
+    padding:0;
+}
+
+.row {
+    margin-left:-15px;
+    margin-right:0;
+}
+
+h1,h2 {
+    text-align:center
+}
+
+.section-header {
+    padding-top:15px;
+    padding-bottom:20px;
+}
+
+
+
+
+/*----------------------------------------------Header--------------------------------*/
+
+.bg-dark {
+    background-color: #51c4d3 !important;
+}
+
+h1 {
+    color:#132C33;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+
+
+header li a { 
+    color:#132C33 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight:500;
+    font-size:25px;
+    margin-left:15px;
+}
+
+header li a:hover {
+    color:#fefecc !important ;
+}
+.name{
+    position:relative;
+    float:left;
+    margin-left:0;
+    padding-left:0;
+    font-size:30px;
+}
+.navbar-toggler {
+    float:right;
+}
+
+/*-------------------------------------------Botton-------------------------------*/
+
+.btn {
+    padding:10px 5px;
+    margin-right: 30px;
+    letter-spacing:3px;
+    font-size:1.2rem;
+    background-color: #132C33;
+    color:#51c4d3;
+    text-transform: uppercase;
+}
+
+button a:hover {
+    text-decoration: none;
+    color:#51c4d3;
+}
+
+.btn:hover{
+    background-color:#fefecc;
+    border-color:#fefecc;
+    color:#51c4d3;
+    cursor:pointer;
+}
+
+.btn-submit {
+    cursor:pointer;
+}
+
+
+
+/*-------------------------------------------Carousel-----*/
+
+.image-fluid {
+    opacity: 0.9;
+}
+
+.carousel-item{
+    position:relative;
+    float:left;
+    display:none;
+    width:100%;
+    margin-right: -100%;
+    height:auto;
+    margin-top:-70px;
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.btncarousel{
+    margin-left:50px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+
+/*-------------------------------------------Welcome Section-------------------------------*/
+
+
+.welcome-text {
+    background-color: antiquewhite;
+    margin-left:20px;
+    padding:25px;
+    font-size:20px;
+    letter-spacing:4px;
+    text-transform: uppercase;
+}
+
+
+/*--------------------------------Testimonials------------------------------*/
+
+.testimonials {
+    text-align: center;
+    padding-top:15px;
+    line-height:35px;
+    background-color: antiquewhite;
+}
+
+
+.rounded-circle{
+ margin-bottom:20px;
+}
+
+
+/*-------------------------------------------Footer-------------------------------*/
+
+
+footer a{
+    text-decoration:none;
+    color:#132C33;
+    padding:5px;
+}
+
+footer a:hover{
+    color:#fefecc;
+    text-decoration: none;
+}
+
+
+
+.card-text,
+.card-title {
+    text-align: center;
+}
+
+.card-body {
+    background-color: #51c4d3;
+
+}
+
+
+.contact-us {
+    padding-top:25px;
+
+}
+.follow-us {
+    padding-top:40px;
+}
+
+.services {
+    padding-top: 30px;
+}
+
+
+
+/*--------------------------------Form Section------------------------------*/
+.book-class {
+    background-image:url("../images/outside-fitness-comp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    height:auto;
+}
+
+
+.form-title {
+    text-align: center;
+   }
+
+.form-box {
+    top: 9%;
+    left: 0;
+    margin: 20px;
+    max-width: 500px;
+    height:auto;
+    padding:15px;
+    background-color:antiquewhite;
+    text-transform: uppercase;
+    overflow:auto;
+    box-sizing: border-box;
+}
+
+
+
+.btn-submit {
+    background-color:#132C33;
+    color:#51c4d3;
+    border-color: antiquewhite;
+    padding:5px;
+    text-transform: uppercase;
+}
+
+.btn-submit:hover {
+    background-color:#51c4d3;
+    color:#132C33;
+}
+
+.contact-info{
+    text-align:center;
+    background-color: antiquewhite;
+    line-height: 40px;
+}
+
+.serv-head {
+    padding:20px 0;
+    justify-content: center;
+}
+
+
+
+
+
+
+/*-------------------------Fees and timetable----------------------------*/
+
+.fees {
+    background-color:antiquewhite;
+    text-align: center;
+}
+
+.fee-heading {
+    padding-top:20px;
+    padding-bottom:10px;
+    text-align:center;
+}
+.fee-p {
+    font-size:20px;
+}
+
+.col {
+    padding-right:0;
+}
+
+::after, ::before {
+    box-sizing: border-box;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    text-align: center;
+    border-color:#132C33;
+}
+
+.fee-divider {
+    margin-bottom:15px;
+}
+
+.extra-booking-info {
+    background-color: antiquewhite;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+/*-------------------------------------------Services-----*/
+
+
+.services-image
+ {
+    height:auto;
+    width:100%;
+    margin-bottom: 50px;
+    opacity: 0.9;
+    border-radius: 2%;
+}
+.kcr {
+    background-color: antiquewhite;  
+}
+.group-classes {
+    background-color: antiquewhite;
+    margin-top:-30px;
+}
+
+.pt-services{
+    background-color: antiquewhite;
+}
+.services-text {
+    font-size: 20px;
+}
+
+.services-list {
+    padding-top:20px;
+    line-height:45px;
+  
+}
+
+.top-heading {
+    padding-top:75px;
+    margin-bottom: 20px;
+    margin-top:-20px;
+
+}
+.head-121{
+    margin-top:-70px;
+    margin-bottom:20px;
+}
+       
+   
+    
+    
+
+
+/*--------------------------------Media Querys------------------------------*/
+
+
+@media screen and (max-width:360px) {
+
+    .name {
+        padding-left:10px;
+        padding-right:0px;
+        font-size:small;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .navbar-toggler {
+        float:right;
+        position:absolute;
+        right:5%;
+    }
+    .navbar {
+        padding-left:0;
+        margin-right:0;
+    }
+    input#date {
+        display: block;
+        margin-bottom: 25px;
+    }
+}
+
+
+@media screen and (max-width:460px) {
+
+    body {
+        padding-top:60px;
+    }
+
+    .container,
+    .servimage {
+        padding-right:15px;
+        padding-left:30px;
+    }
+
+    header li a {
+        text-align: center;
+    }
+
+    .btn-navbar {
+        display: none;
+    }
+    .navbar-toggler {
+        display: inline-block;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .carousel-title {
+        font-size:medium;
+    }
+    .carousel-item{
+       height:100%;
+       padding-top: 20px;
+   }
+
+   .btncarousel{
+       margin-bottom:50px;
+       font-size:small;
+   }
+    .form-box{
+       position:absolute;
+       overflow:auto;
+   }
+
+    input#date {
+        display: block;
+        margin-bottom: 25px;
+    }
+   }
+  
+    @media screen and (max-width:768px){
+
+    .btn-navbar {
+        display: none;
+    }
+    body {
+        padding-top:60px;
+    }
+    .navbar-nav li a {
+        font-size: x-small;
+        margin-top: 5px;
+    }
+    .name {
+        padding-top: 10px;
+        padding-right: 80px;
+        padding-left:20px;
+        font-size: large;
+    }
+
+    .container,
+    .servimage {
+        padding-right:15px;
+        padding-left:30px;
+    }
+
+    .carousel-item {
+      height:100%;
+   }
+
+    .form-box {
+       position:relative;
+       width:100%;
+       top:10%;
+       margin:10px;
+       padding:10px;
+   }
+   
+    .form-image {
+       margin-top:80px;
+       width:100%;
+     }
+
+    footer a {
+        display: block;
+     }
+    .card-group>.card {
+        margin-bottom: 0px;
+    }
+    
+    }
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .navbar-nav li a {
+        font-size: medium;
+        margin-top: 5px;
+    }
+
+    .btn-navbar {
+        display: none;
+    }
+    footer a {
+        display: block;
+     }
+}
+
+@media screen and (min-width:1024px) and (max-width:1148px) {
+.navbar-nav li a {
+    font-size: medium;
+    margin-top: 5px; 
+ }
+}
